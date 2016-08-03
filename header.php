@@ -16,7 +16,7 @@
     
     <header class="header clearfix">
         <div class="clearfix contentHolder display-flex align-items flex-wrap" data-items="center" data-wrap="wrap">
-            <div class="logo"><img src="images/SECK_Logo_Color.png" /></div>
+            <div class="logo"><img src="images/logo.png" /></div>
             <nav class="menu">
                 <ol>
                     <li class="mobileMenu mainMenu"><a>Home</a></li>
