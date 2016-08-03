@@ -7,57 +7,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /> 
 
     <link rel="stylesheet" type="text/css" href="style.css" />
-
-    <!-- TypeKit -->
-    <script src="https://use.typekit.net/mqp5rrm.js"></script>
-    <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>    
     
     <header class="header clearfix">
         <div class="clearfix contentHolder display-flex align-items flex-wrap" data-items="center" data-wrap="wrap">
-            <div class="logo"><img src="images/logo.png" /></div>
+            <div class="logo"><img src="images/logo.jpg" /></div>
             <nav class="menu">
                 <ol>
                     <li class="mobileMenu mainMenu"><a>Home</a></li>
-                    <li class="mainMenu"><a>Mortgage</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
-                        <ul class="submenu sub-mortgage">
-                            <li><a>Loan Programs</a></li>
-                            <li><a>Mortgage Rates</a></li>
-                            <li><a>Process</a></li>
-                            <li><a>Resources</a></li>
-                            <li><a>Get Pre-Approved</a></li>
-                            <li><a>FAQ</a></li>
+                    <li class="mainMenu"><a>Ice Cream</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
+                        <ul class="submenu">
+                            <li><a>Rocky Road</a></li>
+                            <li><a>Chocolate</a></li>
+                            <li><a>Vanilla</a></li>
+                            <li><a>Butter Pecan</a></li>
+                            <li><a>Coffee</a></li>
+                            <li><a>Cookie Dough</a></li>
+                            <li><a>Mint Chocolate Chip</a></li>
+                            <li><a>Pistachio</a></li>
+                            <li><a>Cookies &amp; Cream</a></li>
                         </ul>
                     </li>
-                    <li class="mainMenu"><a>Investments</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
-                        <ul class="submenu sub-investments">
-                            <li><a>Wealth Management</a></li>
-                            <li><a>Financial Planning</a></li>
-                            <li><a>Courses</a></li>
-                            <li><a>Investment Strategies</a></li>
-                            <li><a>About</a></li>
-                            <li><a>FAQ</a></li>
+                    <li class="mainMenu"><a>Candy</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
+                        <ul class="submenu">
+                            <li><a>Tootsie Roll</a></li>
+                            <li><a>Twix</a></li>
+                            <li><a>Butterfinger</a></li>
+                            <li><a>Snickers</a></li>
+                            <li><a>3 Musketeers</a></li>
+                            <li><a>Krackel</a></li>
+                            <li><a>Almond Joy</a></li>
+                            <li><a>Mounds</a></li>
                         </ul>
                     </li>
-                    <li class="mainMenu"><a>Insurance</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
-                        <ul class="submenu sub-insurance">
-                            <li><a>Auto Insurance</a></li>
-                            <li><a>Home Insurance</a></li>
-                            <li><a>Life Insurance</a></li>
-                            <li><a>Annuities</a></li>
-                            <li><a>FAQ</a></li>
+                    <li class="mainMenu"><a>Cookies</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
+                        <ul class="submenu">
+                            <li><a>Chocolate Chunk</a></li>
+                            <li><a>Sugar</a></li>
+                            <li><a>Snickerdoodle</a></li>
+                            <li><a>M&amp;M</a></li>
+                            <li><a>Peanut Butter</a></li>
+                            <li><a>White Chocolate</a></li>
                         </ul>
                     </li>
-                    <li class="mainMenu"><a>About</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
-                        <ul class="submenu sub-about">
-                            <li><a>Core Team</a></li>
-                            <li><a>Testimonials</a></li>
+                    <li class="mainMenu"><a>Wine</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
+                        <ul class="submenu">
+                            <li><a>Cabernet Sauvignon</a></li>
+                            <li><a>Pinot Grigio</a></li>   
                         </ul>
                     </li>
-                    <li class="mainMenu"><a>Contact</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
-                        <ul class="submenu sub-contact">
-                            <li><a>Careers</a></li>
+                    <li class="mainMenu"><a>Beer</a> <?php svg('images/svg/icon_arrow-down.svg','mobileMenu'); ?>
+                        <ul class="submenu">
+                            <li><a>Pacifico</a></li>
                         </ul>
                     </li>
                     <li class="mobileMenu mobileSocial">
@@ -78,7 +80,6 @@
                 <li><a><?php svg('images/svg/social_twitter.svg'); ?></a></li>
                 <li><a><?php svg('images/svg/social_youtube.svg'); ?></a></li>
             </ul>
-            <div class="callButton"><a class="button orange">Call us At 867-5309</a></div>
         </div>
     </header>
 

@@ -1,7 +1,7 @@
 @import "compass";
 @import "_flex.scss";
 
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Droid+Serif:400,400italic,700,700italic);
 
 $font-base-size: 20px;
 $font-base-percentage: $font-base-size / 16px * 100 + 0%;
@@ -66,12 +66,12 @@ a {
 /* == Buttons ================================================ */
 .button {
     background-color: #fff;
-    border: 2px solid #e97225;
-    color: #e97225;
+    border: 2px solid #49c0b6;
+    color: #49c0b6;
     cursor: pointer;
     display: inline-block;
-    font-family: 'proxima-nova', sans-serif;
-    font-size: ems(16px);
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
     font-weight: 700;
     margin: 15px 0;
     max-width: 350px;
@@ -86,29 +86,29 @@ a {
     @include transition(background-color 0.5s ease);
 
     &:hover {
-        background-color: #e97225;
+        background-color: #49c0b6;
         color: #fff;
     }
 }
 
 /* == Typography ================================================== */
 h1 {
-    color: #132B52;
-    font-family: 'proxima-nova', sans-serif;
-    font-size: ems(50px);
+    color: #49c0b6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5em;
     line-height: 60px;
     margin: 0;
 
     @media only screen and (max-width: 600px) {
-        font-size: ems(42.5px);
+        font-size: 2.125em;
         line-height: 48px;
     }
 }
 
 p {
     color: #414142;
-    font-family: 'Lora', serif;
-    font-size: ems(20px);
+    font-family: 'Droid Serif', serif;
+    font-size: 1em;
     font-weight: 400;
     line-height: 30px;
 
@@ -122,8 +122,7 @@ p {
 header {
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    border-top: 10px solid #1F3A67;
-    font-family: 'proxima-nova', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     top: 0;
     width: 100%;
 
@@ -131,7 +130,6 @@ header {
         float: right;
         margin-right: 15px;
         text-transform: uppercase;
-        z-index: 95;
 
         ol {
             margin: 0;
@@ -157,14 +155,10 @@ header {
                     display: block;
                     padding: 35px 15px;
                     font-size: ems(18px);
-                    color: #1F3A67;
+                    color: #49c0b6;
 
                     &:hover {
-                        color: #3865AF;
-                    }
-
-                    &.active {
-                        color: #4C89ED;
+                        color: #88D1D1;
                     }
                 }
 
@@ -181,6 +175,7 @@ header {
             padding: 10px 0;
             position: absolute;
             top: 100%;
+            width: 225px;
 
             @include box-shadow(0 1px 1px 2px rgba(0, 0, 0, 0.05));
 
@@ -189,37 +184,17 @@ header {
                 width: 100%;
 
                 a {
-                    color: #1F3A67;
+                    color: #49c0b6;
                     padding: 5px 20px;
 
                     &:hover {
-                        color: #3865AF;
+                        color: #88D1D1;
                     }
                 }
             }
 
             li:before {
                 content: "";
-            }
-
-            &.sub-about {
-                width: 245px;
-            }
-
-            &.sub-contact {
-                width: 125px;
-            }
-
-            &.sub-insurance {
-                width: 215px;
-            }
-
-            &.sub-investments {
-                width: 275px;
-            }
-
-            &.sub-mortgage {
-                width: 225px;
             }
         }
 
@@ -230,7 +205,7 @@ header {
             height: 100%;
             position: fixed;
             top: 0;
-            background-color: rgba(19, 43, 82, 0.7);
+            background-color: rgba(136, 209, 209, 0.6);
 
             &.active {
                 display: block;
@@ -246,10 +221,6 @@ header {
         }
     }
 
-    .callButton {
-        display: none;
-    }
-
     .contentHolder {
         padding: 0 25px;
 
@@ -260,10 +231,6 @@ header {
                     padding-right: 8px;
                 }
             }
-
-            .logo {
-                max-width: 325px;
-            }
         }
 
         @media screen and (max-width: 1175px) {
@@ -271,10 +238,6 @@ header {
                 ol li a {
                     font-size: ems(17px);
                 }
-            }
-
-            .logo {
-                max-width: 300px;
             }
         }
 
@@ -285,10 +248,6 @@ header {
                     padding-left: 5px;
                     padding-right: 5px;
                 }
-            }
-
-            .logo {
-                max-width: 285px;
             }
 
             .social {
@@ -323,7 +282,6 @@ header {
 
             .logo {
                 margin-top: 15px;
-                max-width: 325px;
                 padding-top: 0;
             }
         }
@@ -370,7 +328,7 @@ header {
             @include flex-direction(column);
 
             nav {
-                background-color: #1F3A67;
+                background-color: #49c0b6;
                 display: block;
                 height: 45px;
                 left: 0;
@@ -383,7 +341,7 @@ header {
                 @include transition(top 0.5s ease);
 
                 ol {
-                    background-color: #132B52;
+                    background-color: #49c0b6;
                     bottom: 0;
                     display: block;
                     left: 0;
@@ -404,7 +362,7 @@ header {
 
                     li {
                         display: block;
-                        border-bottom: 2px solid #1F3A67;
+                        border-bottom: 1px solid #FFF;
 
                         &.active {
                             i.icon {
@@ -457,15 +415,7 @@ header {
                                         margin: 10px 0;
 
                                         svg path {
-                                            fill: #3865AF;
-                                        }
-
-                                        &:hover {
-                                            svg path {
-                                                fill: #4C89ED;
-
-                                                @include transition(all 0.5s ease);
-                                            }
+                                            fill: #FFF;
                                         }
                                     }
                                 }
@@ -502,7 +452,7 @@ header {
                 }
 
                 ol ul.submenu {
-                    background-color: #1F3A67;
+                    background-color: #FFF;
                     display: block;
                     margin-top: -1px;
                     max-height: 0;
@@ -512,11 +462,11 @@ header {
                     width: 100%;
 
                     li a {
-                        color: #fff;
+                        color: #414142;
                         font-size: 1em;
 
                         &:hover {
-                            color: #4C89ED;
+                            color: #88D1D1;
                         }
                     }
 
@@ -583,26 +533,16 @@ header {
                 }
             }
 
-            .callButton {
-                display: block;
-                margin-bottom: 5px;
-                order: 3;
-
-                a {
-                    font-size: ems(16px);
-                    margin-top: 10px;
-                }
-            }
-
             .logo {
                 order: 2;
+                margin-right: 0;
                 margin-top: 55px;
                 padding-top: 0;
-                max-width: 100%;
-                text-align: center;
 
                 img {
-                    width: 80%;
+                    margin: 0 auto;
+                    max-width: 150px;
+                    padding: 15px;
                 }
             }
 
@@ -615,7 +555,7 @@ header {
     .logo {
         float: left;
         margin-right: auto;
-        max-width: 350px;
+        max-width: 150px;
         padding-top: 5px;
     }
 
@@ -636,13 +576,13 @@ header {
             width: 32px;
 
             path {
-                fill: #1F3A67;
+                fill: #49c0b6;
             }
         }
 
         &:hover {
             svg path {
-                fill: #3865AF;
+                fill: #88D1D1;
 
                 @include transition(all 0.5s ease);
             }
